@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu121"
+verify_ssl = false
+name = "pytorch"
+
+[packages]
+torch = {version = "*", index = "pytorch"}
+torchvision = {version = "*", index = "pytorch"}
+numpy = "==1.26.4"
+opencv-python = "*"
+scipy = "*"
+open3d = "*"
+einops = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

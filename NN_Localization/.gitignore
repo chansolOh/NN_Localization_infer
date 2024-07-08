@@ -1,0 +1,9 @@
+BEVPlace
+build-localization_data_generator-Desktop-Debug
+SuperGluePretrainedNetwork
+maps.zip
+localization_data_generator.zip
+NN_Localization/custom_data
+NN_Localization/data*
+NN_Localization/model_pth
+NN_Localization/weights/jungk
