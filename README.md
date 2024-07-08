@@ -2,7 +2,7 @@
 
 install packages in requirments.txt  
   
-cd NN_Localization/python/model_infer.py  
+python NN_Localization/python/model_infer.py  
   
 good luck  
 
